@@ -1,0 +1,34 @@
+{
+    "result": [
+        {
+            "option_id": 1,
+            "option_value": "Россия",
+            "children": [
+                {
+                    "option_id": 2,
+                    "option_value": "Москва и Московская область",
+                    "children": [
+                        {
+                            "option_id": 3,
+                            "option_value": "Одинцово"
+                        },
+                        {
+                            "option_id": 4,
+                            "option_value": "Подольск"
+                        }
+                    ]
+                },
+                {
+                    "option_id": 5,
+                    "option_value": "Санкт-Петербург и Ленинградская область",
+                    "children": [
+                        {
+                            "option_id": 6,
+                            "option_value": "Кронштадт"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
