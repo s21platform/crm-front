@@ -10,9 +10,9 @@ export const ApiRoutes = {
 
   // Аутентификация
   auth: {
-    login: () => '/api/auth/login',
-    logout: () => '/api/auth/logout',
-    refresh: () => '/api/auth/refresh',
+    login: () => '/adm/auth/login',
+    logout: () => '/adm/auth/logout',
+    refresh: () => '/adm/auth/refresh',
   },
 
   // Настройки
