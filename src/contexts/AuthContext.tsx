@@ -15,6 +15,9 @@ interface Staff {
   login: string;
   role_id: number;
   role_name: string;
+  permissions: {
+    access: string[];
+  };
   created_at: number;
   updated_at: number;
 }

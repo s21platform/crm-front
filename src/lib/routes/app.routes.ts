@@ -5,10 +5,10 @@ export const AppRoutes = {
   
   // OptionHub
   optionHub: {
-    root: () => '/option-hub',
-    requests: () => '/option-hub/requests',
-    analytics: () => '/option-hub/analytics',
-    settings: () => '/option-hub/settings',
+    root: () => '/optionhub',
+    requests: () => '/optionhub/requests',
+    analytics: () => '/optionhub/analytics',
+    settings: () => '/optionhub/settings',
   },
 
   // Профиль
