@@ -21,7 +21,7 @@ const Header: React.FC = () => {
           
           <div className="flex items-center space-x-4">
             <span className="text-gray-700">
-              {user?.username}
+              {user?.login}
             </span>
             <button
               onClick={handleLogout}

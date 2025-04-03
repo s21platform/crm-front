@@ -2,6 +2,12 @@ export const ApiRoutes = {
   // Профиль
   profile: () => '/api/profile',
   
+  // Staff
+  staff: {
+    list: () => '/adm/staff/list',
+    create: () => '/adm/staff',
+  },
+  
   // Опции
   optionRequests: {
     list: () => '/api/option_requests',
@@ -10,9 +16,9 @@ export const ApiRoutes = {
 
   // Аутентификация
   auth: {
-    login: () => '/api/auth/login',
-    logout: () => '/api/auth/logout',
-    refresh: () => '/api/auth/refresh',
+    login: () => '/adm/auth/login',
+    logout: () => '/adm/auth/logout',
+    refresh: () => '/adm/auth/refresh',
   },
 
   // Настройки
