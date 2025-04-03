@@ -15,6 +15,12 @@ export const menuItems: MenuItem[] = [
     path: '/', // Корневой путь для дашборда
   },
   {
+    id: 'staff',
+    title: 'Staff',
+    path: AppRoutes.staff.root(),
+    requiredPermission: 'staff'
+  },
+  {
     id: 'optionhub',
     title: 'OptionHub',
     path: AppRoutes.optionHub.root(),

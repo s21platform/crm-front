@@ -2,6 +2,12 @@ export const ApiRoutes = {
   // Профиль
   profile: () => '/api/profile',
   
+  // Staff
+  staff: {
+    list: () => '/adm/staff/list',
+    create: () => '/adm/staff',
+  },
+  
   // Опции
   optionRequests: {
     list: () => '/api/option_requests',

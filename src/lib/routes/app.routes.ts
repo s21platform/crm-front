@@ -3,6 +3,11 @@ export const AppRoutes = {
   home: () => '/',
   login: () => '/login',
   
+  // Staff
+  staff: {
+    root: () => '/staff',
+  },
+  
   // OptionHub
   optionHub: {
     root: () => '/optionhub',
